@@ -34,6 +34,7 @@
 .quote-box-links-button {
   padding: 10px;
   background-color: blue;
+  cursor: pointer;
 }
 
 .button-text {
@@ -41,7 +42,7 @@
   display: inline;
 }
 
-h1, p {
+h1, h4 {
   color: blue;
   text-align: center;
 }

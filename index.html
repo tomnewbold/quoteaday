@@ -4,24 +4,26 @@
 <meta charset="UTF-8">
 <title>QuoteADay</title>
 <link rel="stylesheet" type="text/css" href="css/main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://use.fontawesome.com/5d6327e642.js"></script>
+
 </head>
 
 <body>
 <div class="quote">
   <div class="quote-box">
-    <h1>"If a man does his best what else is there"</h1>
-    <p>Quote Author</p>
+    <h1 id="quote-box-quote"></h1>
+    <h4 id="quote-box-author"></h4>
     <div class="quote-box-links">
       <div class="quote-box-links-social">
-      <i class="fa fa-twitter" aria-hidden="true"></i>
-      <i class="fa fa-facebook" aria-hidden="true"></i>
+      <a class="tweet"><i class="fa fa-twitter" aria-hidden="true"></i></a>
     </div>
-      <div class="quote-box-links-button">
+      <div id="button" class="quote-box-links-button">
           <p class='button-text'>New quote</p>
       </div>
   </div>
 </div>
+<script src="app.js"></script>
 </body>
 
 </html>
